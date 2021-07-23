@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// kick-off point for the app, takes first React component App and renders it in the DOM
+// puts it in the div with id 'root'
 ReactDOM.render(
   <React.StrictMode>
     <App />
